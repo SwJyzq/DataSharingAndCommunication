@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/send_time_text"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:contentDescription="@string/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/img_select"
+            android:id="@+id/user_header"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:id="@+id/chat_content_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/user_header"
+            android:layout_toStartOf="@id/chat_content_text"
+            android:id="@+id/user_name"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

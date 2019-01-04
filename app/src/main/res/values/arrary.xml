@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data_type">
+        <item>计算机</item>
+        <item>社会学</item>
+        <item>心理学</item>
+        <item>数  学</item>
+        <item>化  学</item>
+        <item>其  它</item>
+    </string-array>
+</resources>

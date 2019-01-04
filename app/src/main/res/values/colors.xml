@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="sc_transparent_background">#00111111</color>
+    <color name="white">#FFFFFF</color>
+    <color name="button_unselected">#FF54ACEA</color>
+    <color name="white_grey">#BFBFBF</color>
+    <color name="black_grey">#818181</color>
+    <color name="black_a_f">#FF000000</color>
+    <color name="white_a_f">#FFFFFFFF</color>
+    <color name="white_a_0">#00FFFFFF</color>
+</resources>
