@@ -8,4 +8,12 @@
         <item>化  学</item>
         <item>其  它</item>
     </string-array>
+    <string-array name="data_type_db">
+        <item>computer</item>
+        <item>sociology</item>
+        <item>psychology</item>
+        <item>mathematics</item>
+        <item>chemistry</item>
+        <item>others</item>
+    </string-array>
 </resources>
